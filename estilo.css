@@ -109,7 +109,29 @@ body{
 
 .botao-sombrio:hover{
     background-color: red;
-    color: white;
-    border-color: white;
+    color: black;
+    border-color: black;
     transform: scale(1.2);
+}
+
+.linha{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.resumo{
+    width: 400px;
+    color: #f8f8f8;
+    font-size: 18px;
+    font-family: arial;
+    line-height: 22px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.voltar{
+    color: white;
+    font-weight: bold;
 }
